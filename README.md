@@ -23,4 +23,4 @@ Es una muestra de cómo integré distintas herramientas y enfoques para visualiz
 
 ## Autor
 
-Dashboard realizados por *Joaquín Paolo Mori Reinoso*
+Dashboard realizados por *Joaquín Paolo Mori Reinoso* (20211686)
