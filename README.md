@@ -5,7 +5,7 @@ Este repositorio contiene dos dashboards que reflejan mi aprendizaje y trabajo c
 Puedes explorar ambos dashboards directamente desde este repositorio:
 
 - [Dashboard 1: Elecciones 2011 y 2016](https://jmorir.github.io/GAA/)
-- [Dashboard 2: Gráficos del curso](https://jmorir.github.io/ciclo20242/)
+- [Dashboard 2: Gráficos del curso](https://jmorir.github.io/GAAAAAAAAAAAA/)
 
 ## Dashboard 1: Elecciones Presidenciales 2011 y 2016
 
