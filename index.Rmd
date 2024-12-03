@@ -1,0 +1,60 @@
+---
+title: "Dashboard electoral"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Intro {.sidebar}
+
+Este dashboard fue preparado según el modelo visto en clase. Se intentó utilizar una base de datos que realicé para un trabajo y se hiceron un par de gráficos y mapas. Se combinó lo aprendido en el curso y lo construído en la base de datos.
+
+A pesar de que la graficación no es algo que no haya sido realizado anteriormente, me pareció chévere colocarlo. Principalmente ya que en su momento generar la base de datos costó demasiado tiempo y nunca logré aterrizarlo en algún tipo de gráfico.
+
+
+
+## Column {data-width="550"}
+
+### Gráfico de Pie - Elecciones 2016 1ra Vuelta 
+
+```{r}
+readRDS("grafico_torta.rds")
+```
+
+### Grafico de barras apiladas por departamento
+
+```{r}
+readRDS("grafico_barras.rds")
+```
+
+## Column {data-width="550"}
+
+### Mapa 1er lugar por provincia 2016
+
+```{r}
+readRDS("mapa_elecciones.rds")
+```
+
+### Mapa 2do lugar por provincia 2016
+
+```{r}
+readRDS("mapa_elecciones_segundo.rds")
+```
+
+## Column {data-width="550"}
+
+### Mapa 1er lugar por provincia 2011
+
+```{r}
+readRDS("dinosaurioelectoral.rds")
+```
+
+### Mapa 2do lugar por provincia 2011
+
+```{r}
+readRDS("mapa_segundo_ganador_elecciones11.rds")
+```
